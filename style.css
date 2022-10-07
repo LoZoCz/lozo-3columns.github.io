@@ -14,7 +14,6 @@ section
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /*column-gap: 120px;*/
     color: white;
     width: 1050px;
     height: 65%;
@@ -80,4 +79,23 @@ button
     border-radius: 30px;
     font-size: 15px;
     cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.orange-button:hover
+{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+}
+
+.blue-button:hover
+{
+    background-color: white;
+    color: hsl(184, 100%, 22%); 
+}
+
+.dark-button:hover
+{
+    background-color: white;
+    color: hsl(179, 100%, 13%); 
 }
